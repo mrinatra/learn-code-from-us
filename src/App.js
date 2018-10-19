@@ -5,6 +5,9 @@ import Profiles from "./Profiles"
 import About from "./About"
 
 class App extends Component {
+  componentDidMount(){
+        document.title = "Learn Code From Us"
+      } 
   render() {
     return (
       <Router>
